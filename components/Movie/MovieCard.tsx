@@ -31,7 +31,7 @@ export default function MovieCard(props: Movie) {
         {genres}
         </div>
         <div className="card-actions ">
-          <button className="btn btn-warning w-full">Buy Now</button>
+          <button className="btn btn-warning w-full">Book Now</button>
         </div>
       </div>
     </div>

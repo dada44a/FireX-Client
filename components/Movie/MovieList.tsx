@@ -28,14 +28,14 @@ export default function MovieList(props: MovieListProps) {
     !movies || movies?.length === 0 ? (
       <p>No movies found.</p>
     ) : (
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-7">
         {movieCard}
       </div>
     );
 
   return (
     <section className="py-8">
-      <div className="container">
+      <div className="container ml-4">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">{props.title}</h2>
         {movieList}
       </div>
