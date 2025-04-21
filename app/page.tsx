@@ -1,4 +1,3 @@
-import Footer from "@/components/CleanUp/Footer";
 import Hero from "@/components/CleanUp/Hero";
 import MovieList from "@/components/Movie/MovieList";
 import { movies } from "@/MockData/Movies";
@@ -9,7 +8,7 @@ export default function Home() {
       <Hero/>
       <MovieList title="Now Showing" movies={movies} />
       <MovieList title="Upcoming Movies" movies={movies} />
-      <Footer />
+      
     </div>
   );
 }
