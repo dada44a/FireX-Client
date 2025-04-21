@@ -1,4 +1,5 @@
 import React from "react";
+import CastAvatar from "./CastAvatar";
 
 const Info = () => {
   return (
@@ -9,6 +10,14 @@ const Info = () => {
         technology is given the inverse task of planting an idea into the mind
         of a C.E.O
       </p>
+      <p className="text-2xl font-semibold mt-3">Cast & Crew</p>
+      <div className="grid grid-cols-1 md:grid-col-2 lg:grid-cols-5 gap-5 pt-5">
+        <CastAvatar/>
+        <CastAvatar/>
+        <CastAvatar/>
+        <CastAvatar/>
+        <CastAvatar/>
+      </div>
     </div>
   );
 };
