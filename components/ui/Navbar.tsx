@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-1">
-        <Link href={"/"} className="btn btn-ghost text-xl hover:none">FireX</Link>
+        <Link href={"/"} className="btn btn-ghost text-xl">FireX</Link>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">

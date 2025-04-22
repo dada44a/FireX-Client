@@ -2,8 +2,8 @@
 import MovieInfo from "@/components/ui/MovieInfo";
 import React from "react";
 
-const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
-  const { slug } = await params;
+const page = async (/*{ params }: { params: Promise<{ slug: string }> }*/) => {
+  // const { slug } = await params;
   return (
     <div className="min-h-screen">
       <div className="grid grid-cols-1 lg:grid-cols-3 h-[500px] gap-2">
